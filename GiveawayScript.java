@@ -145,7 +145,7 @@ public class GiveawayScript
 
 		long[] friends = twitter.getFriendsIDs(-1).getIDs();
 
-		if (friends.length > 4995)
+		if (friends.length > 2000)
 		{
 			for (int i = 0; i < friends.length / 2; i++)
 			{
