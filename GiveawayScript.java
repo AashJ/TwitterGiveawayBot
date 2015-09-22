@@ -147,7 +147,7 @@ public class GiveawayScript
 
 		if (friends.length > 4995)
 		{
-			for (int i = 0; i < friends.length; i++)
+			for (int i = 0; i < friends.length / 2; i++)
 			{
 				twitter.destroyFriendship(friends[i]);
 			}
