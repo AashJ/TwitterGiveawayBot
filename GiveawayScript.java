@@ -90,7 +90,7 @@ public class GiveawayScript
 				boolean follow = sU.checkToFollow();
 				boolean retweet = sU.checkToRetweet();
 
-				if (!follow && !retweet)
+				if ((!follow && !retweet) || status.isRetweetedByMe())
 				{
 					System.out.println("IGNORE");
 					continue;

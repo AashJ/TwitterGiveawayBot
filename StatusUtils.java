@@ -21,8 +21,7 @@ public class StatusUtils
 	public static boolean checkToRetweet()
 	{
 		String statusText = status.getText().toLowerCase();
-		return (statusText.contains("rt") || statusText.contains("retweet") ||
-				  !status.isRetweetedByMe());
+		return (statusText.contains("rt") || statusText.contains("retweet"));
 	}
 
 	public static String getPersonToFollow()
