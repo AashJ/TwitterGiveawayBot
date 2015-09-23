@@ -50,10 +50,10 @@ public class GiveawayScript
 	 */
 	public static void initializeTwitterAccount()
 	{
-		String cK = "w5XzrblbcIXcuNbb3MpJVCWs7";
-		String cS = "leiCvp3K7ItrMYIKuvmViIXmCUWjV4pCTv4AbrERN9X6Taimyc";
-		String aT = "3609455172-JLlj5IaoDNKH1HdKlafvOGAmgm1qX5WsjBN0VYN";
-		String aTS = "uU6f7epbyvhMx3nccVrFWVeUl8g5BQ0eMmdM1NHYN8Ypt";
+		String cK = "";
+		String cS = "";
+		String aT = "";
+		String aTS = "";
 		tA = new TwitterAccount(cK, cS, aT, aTS);
 	}
 
